@@ -1,0 +1,6 @@
+# Core computation engine
+torch
+
+# Jupyter environment
+ipykernel
+notebook
