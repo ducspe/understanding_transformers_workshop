@@ -14,7 +14,7 @@ The second day will be a practical session, where we will investigate the code p
 
 We will go step-by-step through the slides and through the Jupyter Notebook code, explaining things at a deeper level, in order to get an intuitive understanding of how transformers are designed and how they generally work.
 
-Since the audience has varying levels of familiarity with the prerequisites, this workshop uses a dual-track approach: we'll consistently parallel the code with Figure 1 from the "Attention is All You Need" paper, by Vaswani et al. Note that this paper and the snipped Figure 1 block diagram are already available within the `extra_material/` folder for convenience. You will also find the theory presentation in various formats inside the `extra_material/PresentationAllFormats/` folder. The general aim is to allow participants to engage at their own individual comfort level:
+Since the audience has varying levels of familiarity with the prerequisites, this workshop uses a dual-track approach: we'll consistently parallel the code with Figure 1 from the "Attention is All You Need" paper, by Vaswani et al. Note that this paper and the snipped Figure 1 block diagram are already available within the `extra_material/` folder for convenience. You will also find the theory presentation in [PDF](extra_material/PresentationAllFormats/UnderstandingTransformers_Workshop_2026_Final.pdf) and [PowerPoint](extra_material/PresentationAllFormats/UnderstandingTransformers_Workshop_2026_Final.pptx) formats inside the `extra_material/PresentationAllFormats/` folder. In addition to the references on the slides and in the reference section at the end, the PowerPoint presentation includes speaker notes that may contain additional links to papers, videos, and other resources for further study. These notes are not included in the PDF version. The general aim is to allow participants to engage at their own individual comfort level:
 
 * Those proficient in Python, PyTorch, Calculus and Statistics can dive into implementation details.
 * Those less familiar with these prerequisites can follow the architecture through the block diagram, gaining an intuitive understanding of component functionality and interactions.
@@ -62,6 +62,10 @@ If imports work, run all the other cells to see if you don't get any other runti
 To terminate the Jupyter Notebook session press Ctrl+C and confirm with the "yes"/"y" option.
 
 To deactivate the virtual environment, simply type: `deactivate` in the terminal.
+
+## Beyond this workshop
+
+Please note that, for simplicity, the `mini_gpt.ipynb` notebook uses character-level tokenization, where each character is a separate token. As a natural next step after the workshop, you can explore our [Understanding Tokenization repository](https://github.com/ducspe/UnderstandingTokenization) to expand on what you have learned and discover other tokenization methods, including byte pair encoding (BPE).
 
 ## Acknowledgments
 
